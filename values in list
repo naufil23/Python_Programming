@@ -1,0 +1,9 @@
+numbers = [10, 20, 30, 40, 50, 60]
+
+target = int(input("Enter target value: "))
+
+if target in numbers:
+    print("Target Found")
+else:
+    print("Target Not Found")
+    
